@@ -29,6 +29,10 @@ Messages.prototype = {
     this.attributeNames = attributes;
   },
 
+  _getAttributeNames: function() {
+    return this.attributeNames;
+  },
+
   /**
    * Set the attribute formatter.
    *
@@ -100,7 +104,11 @@ Messages.prototype = {
   _getTemplate: function(rule) {
 
     var messages = this.messages;
-    var template = messages.def;
+    var template = 'The :attribute attribute has errors.';
+    if(messages!==undefined && messages.def !== undefined)
+    {
+      template = messages.def;
+    }
     var customMessages = this.customMessages;
     var formats = [rule.name + '.' + rule.attribute, rule.name];
 

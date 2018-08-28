@@ -450,6 +450,10 @@ Validator.prototype = {
     this.messages._setAttributeNames(attributes);
   },
 
+  getAttributeNames: function () {
+    return this.messages._getAttributeNames();
+  },
+
   /**
    * Set the attribute formatter.
    *
@@ -508,6 +512,14 @@ Validator.prototype = {
     return !this.check();
   },
 
+  setPassesFails: function (passes,fails) {
+    var async_passes = this._checkAsync('passes', passes);
+    var async_fails = this._checkAsync('fails', fails);
+    if (async_passes && async_fails) {
+      return this.checkAsync(passes, fails);
+    }
+    return this.check();
+  },
   /**
    * Check if validation should be called asynchronously
    *

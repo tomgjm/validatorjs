@@ -44,11 +44,20 @@ var container = {
    */
   _load: function(lang) {
     if (!this.messages[lang]) {
+      var loadOK = false;
       try {
         var rawMessages = require_method('./lang/' + lang);
         this._set(lang, rawMessages);
-      } catch (e) {}
-    }
+        loadOK = true;
+      } catch (e) {loadOK = false;}
+      if(!loadOK)
+      {
+        try {
+          var rawMessages = require_method('./lang/en');
+          this._set(lang, rawMessages);
+        } catch (e) {}
+      }
+    }    
   },
 
   /**

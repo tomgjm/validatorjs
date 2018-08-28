@@ -1,9 +1,13 @@
 {
-  "name": "validatorjs",
-  "description": "Validation library inspired by Laravel's Validator",
+  "name": "validatorjs_tom",
+  "description": "Validation library inspired by Laravel's Validator(在原来Validationjs基础上新增setPassesFails和getAttributeNames等方法，以及默认语言为en)",
   "version": "3.14.2",
-  "author": "David <david@thejsguy.com>",
+  "author": "Guan JianMing <tiandiwy@aliyun.com>",
   "contributors": [
+    {
+      "name": "David",
+      "email": "david@thejsguy.com"
+    },
     {
       "name": "Gary Green",
       "email": "holegary@gmail.com"
@@ -21,10 +25,10 @@
   "main": "./src/validator.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/skaterdav85/validatorjs"
+    "url": "https://github.com/tomgjm/validatorjs_tom"
   },
   "bugs": {
-    "url": "https://github.com/skaterdav85/validatorjs/issues?labels=bug&milestone=1&page=1&state=open"
+    "url": "https://github.com/tomgjm/validatorjs_tom/issues?labels=bug&milestone=1&page=1&state=open"
   },
   "keywords": [
     "validatorjs",
@@ -35,7 +39,8 @@
     "validation",
     "data",
     "laravel",
-    "laravel-validator-for-js"
+    "laravel-validator-for-js",
+    "tom"
   ],
   "devDependencies": {
     "browserify": "^13.0.1",
