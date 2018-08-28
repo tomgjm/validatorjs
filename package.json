@@ -1,8 +1,8 @@
 {
   "name": "validatorjs_tom",
   "description": "Validation library inspired by Laravel's Validator(在原来Validationjs基础上新增setPassesFails和getAttributeNames等方法，以及默认语言为en)",
-  "version": "3.14.2",
-  "author": "Guan JianMing <tiandiwy@aliyun.com>",
+  "version": "0.1.0",
+  "author": "tiandiwy <tiandiwy@aliyun.com>",
   "contributors": [
     {
       "name": "David",
