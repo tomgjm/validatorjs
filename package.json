@@ -1,7 +1,7 @@
 {
   "name": "validatorjs_tom",
-  "description": "Validation library inspired by Laravel's Validator(ÔÚÔ­À´Validationjs»ù´¡ÉÏĞÂÔösetPassesFailsºÍgetAttributeNamesµÈ·½·¨£¬ÒÔ¼°Ä¬ÈÏÓïÑÔÎªen)",
-  "version": "0.1.0",
+  "description": "Validation library inspired by Laravel's Validator(ï¿½ï¿½Ô­ï¿½ï¿½Validationjsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½setPassesFailsï¿½ï¿½getAttributeNamesï¿½È·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªen)",
+  "version": "0.1.1",
   "author": "tiandiwy <tiandiwy@aliyun.com>",
   "contributors": [
     {
