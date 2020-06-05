@@ -271,7 +271,7 @@ Validator.prototype = {
 
     for (var i = 0, len = rulesArray.length, rule; i < len; i++) {
       rule = typeof rulesArray[i] === 'string' ? this._extractRuleAndRuleValue(rulesArray[i]) : rulesArray[i];
-      if (rule.value) {
+      if (rule.value && rule.name.trim().toLowerCase() === "regx") {
         rule.value = this._replaceWildCards(rule.value, wildCardValues);
         this._replaceWildCardsMessages(wildCardValues);
       }

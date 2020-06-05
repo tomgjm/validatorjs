@@ -1,7 +1,7 @@
 {
   "name": "validatorjs_tom",
-  "description": "Validation library inspired by Laravel's Validator(��ԭ��Validationjs����������setPassesFails��getAttributeNames�ȷ������Լ�Ĭ������Ϊen)",
-  "version": "0.1.1",
+  "description": "Validation library inspired by Laravel's Validator to tomjs (forked from skaterdav85/validatorjs)",
+  "version": "0.1.2",
   "author": "tiandiwy <tiandiwy@aliyun.com>",
   "contributors": [
     {
